@@ -10,6 +10,12 @@ namespace l3
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("- ввести А");
+            Console.WriteLine("- ввести В");
+            Console.WriteLine("- выполнить операцию “+”");
+            Console.WriteLine("- выполнить операцию “-” ");
+            Console.WriteLine("- выполнить операцию “*”");
+            Console.WriteLine("- выполнить операцию “/”");
         }
     }
 }
