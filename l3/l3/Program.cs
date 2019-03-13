@@ -18,4 +18,31 @@ namespace l3
             Console.WriteLine("- выполнить операцию “/”");
         }
     }
+
+    public static int add(int a, int b)
+    {
+        return a + b;
+    }
+
+    public static int inputA(int input)
+    {
+
+
+        input = Convert.ToInt32(Console.ReadLine());
+    }
+
+
+    public static int inputB(int input)
+    {
+
+
+        input = Convert.ToInt32(Console.ReadLine());
+    }
+
+
+    public static int mul(int a, int b)
+    {
+        return a * b;
+    }
+
 }
