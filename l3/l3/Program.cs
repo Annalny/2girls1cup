@@ -16,6 +16,20 @@ namespace l3
             Console.WriteLine("- выполнить операцию “-” ");
             Console.WriteLine("- выполнить операцию “*”");
             Console.WriteLine("- выполнить операцию “/”");
+
+
         }
+
+    }
+
+    public static int sub(int a, int b)
+    {
+        return a - b;
+    }
+
+
+    public static int div(int a, int b)
+    {
+        return a / b;
     }
 }
